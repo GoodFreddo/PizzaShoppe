@@ -6,9 +6,8 @@ namespace PizzaShoppe.DAL.Models
 {
     public class PizzaChain
     {
-        public int Id { get; set; }
+        public int PizzaChainId { get; set; }
         public string Name { get; set; }
-
         public List<PizzaShoppeBranch> PizzaShoppeBranches { get; set; }
 
     }
