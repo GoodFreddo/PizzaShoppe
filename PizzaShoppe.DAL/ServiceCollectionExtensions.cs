@@ -1,9 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using PizzaShoppe.DAL.Repositories;
 
 namespace PizzaShoppe.DAL
 {
@@ -14,6 +12,10 @@ namespace PizzaShoppe.DAL
        {
           serviceCollection.AddDbContext<PizzaShoppeContext>(options =>
              options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+          serviceCollection.AddScoped<IPizzaShoppeContext>(s => s.GetRequiredService<PizzaShoppeContext>());
+
+          serviceCollection.AddScoped<IPizzaRepository, PizzaRepository>();
 
          return serviceCollection;
        }

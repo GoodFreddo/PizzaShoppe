@@ -1,12 +1,25 @@
-﻿using Microsoft.EntityFrameworkCore;
-using PizzaShoppe.DAL.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using PizzaShoppe.DAL.Models;
 
 namespace PizzaShoppe.DAL
 {
-   public class PizzaShoppeContext : DbContext
+   public interface IPizzaShoppeContext
+   {
+      DbSet<PizzaChain> PizzaChains { get; set; }
+      DbSet<PizzaShoppeBranch> PizzaShoppeBranches { get; set; }
+      DbSet<Pizza> Pizzas { get; set; }
+      DbSet<PizzaToPizzaShopBranch> PizzaToPizzaShopBranches { get; set; }
+      Task<int> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
+   }
+
+   public class PizzaShoppeContext : DbContext, IPizzaShoppeContext
    {
       public PizzaShoppeContext(DbContextOptions<PizzaShoppeContext> dbContextOptions) : base(dbContextOptions)
       {
