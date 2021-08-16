@@ -10,5 +10,6 @@ namespace PizzaShoppe.DAL.Models
         public string Address { get; set; }
         public PizzaChain PizzaChain { get; set; }
         public List<Pizza> Pizzas { get; set; }
+        //TODO: Could have a "DateAdopted"
     }
 }
