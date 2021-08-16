@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj": {}
+    "E:\\GIT\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj": {
+    "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj",
+        "projectUniqueName": "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj",
         "projectName": "PizzaShoppe.DAL",
-        "projectPath": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj",
-        "packagesPath": "C:\\Users\\Lachlan\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\obj\\",
+        "projectPath": "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj",
+        "packagesPath": "C:\\Users\\op_lachlanb\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\op_lachlanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/trayport/_packaging/Trayport/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +39,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -75,40 +73,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj": {
+    "E:\\GIT\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj",
+        "projectUniqueName": "E:\\GIT\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj",
         "projectName": "PizzaShoppe",
-        "projectPath": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj",
-        "packagesPath": "C:\\Users\\Lachlan\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe\\obj\\",
+        "projectPath": "E:\\GIT\\PizzaShoppe\\PizzaShoppe\\PizzaShoppe.csproj",
+        "packagesPath": "C:\\Users\\op_lachlanb\\.nuget\\packages\\",
+        "outputPath": "E:\\GIT\\PizzaShoppe\\PizzaShoppe\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lachlan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\op_lachlanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/trayport/_packaging/Trayport/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj": {
-                "projectPath": "D:\\Code\\Git\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj"
+              "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj": {
+                "projectPath": "E:\\GIT\\PizzaShoppe\\PizzaShoppe.DAL\\PizzaShoppe.DAL.csproj"
               }
             }
           }
@@ -121,6 +116,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -145,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
