@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using PizzaShoppe.DAL;
+using PizzaShoppe.DAL.Repositories;
 
 namespace PizzaShoppe
 {
@@ -28,6 +29,7 @@ namespace PizzaShoppe
         {
             services.AddControllers();
             services.AddStores(Configuration);
+            services.AddScoped<IPizzaRepository,PizzaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
